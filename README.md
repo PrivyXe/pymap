@@ -26,5 +26,7 @@ ReportLab: Used to generate PDF reports containing scan results and vulnerabilit
 Concurrent.Futures: Used for parallel processing.
 
 Scanning on a Specific IP Address: python3 script.py -t 192.168.1.1
+
 Scanning on a Subnet: python3 script.py -t 192.168.1.0/24
+
 Automatic Subnet Detection and Scanning: python3 script.py

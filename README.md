@@ -18,12 +18,12 @@ If no target is specified, the script automatically detects the subnet of the lo
 The vulnerability detection process is executed in parallel using ThreadPoolExecutor, improving performance, especially in large network environments.
 
 # Technologies & Libraries Used
-# Python: The script is written in Python.
-# Nmap: Used for network scanning.
-# Requests: Used to fetch data from the CVE database via HTTP requests.
-# Netifaces: Used to detect local network interfaces and retrieve subnet information.
-# ReportLab: Used to generate PDF reports containing scan results and vulnerabilities.
-# Concurrent.Futures: Used for parallel processing.
+ Python: The script is written in Python.
+ Nmap: Used for network scanning.
+ Requests: Used to fetch data from the CVE database via HTTP requests.
+ Netifaces: Used to detect local network interfaces and retrieve subnet information.
+ ReportLab: Used to generate PDF reports containing scan results and vulnerabilities.
+ Concurrent.Futures: Used for parallel processing.
 
 Scanning on a Specific IP Address: python3 script.py -t 192.168.1.1
 

@@ -1,0 +1,4 @@
+nmap==0.6.1
+requests==2.31.0
+netifaces==0.11.0
+reportlab==4.0.4

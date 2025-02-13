@@ -30,3 +30,5 @@ Scanning on a Specific IP Address: python3 script.py -t 192.168.1.1
 Scanning on a Subnet: python3 script.py -t 192.168.1.0/24
 
 Automatic Subnet Detection and Scanning: python3 script.py
+
+Notice: It was created for educational purposes. The user is responsible for illegal use.

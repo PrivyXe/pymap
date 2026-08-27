@@ -1,4 +1,5 @@
-nmap==0.6.1
-requests==2.31.0
-netifaces==0.11.0
-reportlab==4.0.4
+python-nmap>=0.7.1
+requests>=2.31.0
+reportlab>=4.0.0
+rich>=13.0.0
+psutil>=5.9.0
